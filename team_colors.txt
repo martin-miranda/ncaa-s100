@@ -1,0 +1,10 @@
+CSB:green
+AU:blue
+CSJL:blue
+EAC:red
+JRU:blue
+LPU:gray
+MU:orange
+SBU:red
+SSCR:orange
+UPHSD:red
