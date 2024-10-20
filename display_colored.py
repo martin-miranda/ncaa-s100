@@ -27,8 +27,8 @@ with open('title.txt', 'r') as file:
     title = [line.strip() for line in file]
 st.title(title[0])
 st.markdown('By Carl Miranda @mc_miranda34')
-st.markdown('Raw Box Scores from Pong Ducanes: uaap.livestats.ph')
-st.markdown('#### As of Game 61 - MU vs. SBU (Oct. 19)')
+st.markdown('Raw Box Scores from Pong Ducanes: ncaa.livestats.ph')
+st.markdown('#### As of Game 61 - MU vs. SBU (Oct. 20)')
 
 tab1, tab2, tab3, tab4, tab5, tab6, tab7 = st.tabs(['Player Per-Game Stats', 'Player Per-30 Minute Stats', 'Player Advanced Stats', 'Team Per-Game Stats', 'Opponent Per-Game Stats', 'Team Advanced Stats', 'Glossary'])
 cm = sns.dark_palette("green", as_cmap=True)
