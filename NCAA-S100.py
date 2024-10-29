@@ -26,8 +26,10 @@ with open('team_colors.txt','r') as file:
 with open('title.txt', 'r') as file:
     title = [line.strip() for line in file]
 st.title(title[0])
-st.markdown('By Carl Miranda @mc_miranda34')
-st.markdown('Raw Box Scores from Pong Ducanes: uaap.livestats.ph')
+carl = "https://twitter.com/mc_miranda34"
+pong = "https://ncaa.livestats.ph"
+st.markdown('By Carl Miranda [@mc_miranda34](%s)' % carl)
+st.markdown('Raw Box Scores from Pong Ducanes: [ncaa.livestats.ph](%s)' % pong)
 with open('as_of.md','r') as f:
     markdown_content = f.read()
     st.markdown(markdown_content)
