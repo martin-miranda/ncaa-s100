@@ -27,9 +27,9 @@ with open('title.txt', 'r') as file:
     title = [line.strip() for line in file]
 st.title(title[0])
 carl = "https://twitter.com/mc_miranda34"
-pong = "https://ncaa.livestats.ph"
-st.markdown('By Carl Miranda [@mc_miranda34](%s)' % carl)
-st.markdown('Raw Box Scores from Pong Ducanes: [ncaa.livestats.ph](%s)' % pong)
+pong = "https://twitter.com/ompongski"
+st.link_button(label='By Carl Miranda (@mc_miranda34)', url=carl, type='secondary', icon=':material/person:')
+st.link_button(label='Raw Box Scores from Pong Ducanes (@ompongski)', url=pong, type='secondary', icon=':material/insert_chart:')
 with open('as_of.md','r') as f:
     markdown_content = f.read()
     st.markdown(markdown_content)
