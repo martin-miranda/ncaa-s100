@@ -1,1 +1,1 @@
-#### As of Game 69 - SBU vs. JRU (Oct. 29)
+#### As of Game 71 - UPHSD vs. CSB (Oct. 30)
