@@ -1,1 +1,1 @@
-#### As of Game 71 - UPHSD vs. CSB (Oct. 30)
+#### As of End of Eliminations
